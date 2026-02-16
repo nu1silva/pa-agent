@@ -1,0 +1,10 @@
+[project]
+name = "pa-agent"
+version = "0.1.0"
+description = "Personal Assistant Agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=1.25.0",
+    "litellm>=1.81.12",
+]
