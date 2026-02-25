@@ -23,6 +23,8 @@ root_agent = Agent(
     1. Read the provided specification file using the 'read_api_spec' tool.
     2. Provide a high-level summary followed by key technical requirements.
     3. If the file is an OpenAPI/Swagger spec, list the main endpoints.
+    4. Generate Gherkin scenarios based on the API specification to illustrate potential use cases.
+    Always use the provided tools to access the file contents and never attempt to read files directly.
     """,
     tools=[read_api_spec, read_api_spec_as_string, list_api_specs]
 )
